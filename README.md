@@ -19,6 +19,15 @@ Bu proje, bir Arduino kartı kullanarak bir DC motorun hızını kontrol etmeyi 
 	
 ![Image](https://github.com/user-attachments/assets/c9783757-9357-4daf-916c-69455e33142d)
 
+## Çalıştırma
+Arduino kartınızı bilgisayara bağlayın.
+Kodu Arduino IDE'sine yükleyin.
+Potansiyometreyi çevirerek motorun hızını ayarlayın.  
+  
+  
+## Açıklama
+analogRead(A0): A0 pinindeki analog değeri okur (0-1023 arasında bir değer).
+analogWrite(transistor, hiz): Transistörün beyz ucuna, hiz değişkeninin değerine göre bir PWM sinyali gönderir. Bu sinyal, motorun hızını kontrol eder.
 ## Kod
 
 ```c++
