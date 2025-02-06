@@ -25,7 +25,8 @@ Kodu Arduino IDE'sine yükleyin.
 Potansiyometreyi çevirerek motorun hızını ayarlayın.
 
 ## Açıklama
-analogRead(A0): A0 pinindeki analog değeri okur (0-1023 arasında bir değer).
+analogRead(A0): A0 pinindeki analog değeri okur (0-1023 arasında bir değer).  
+
 analogWrite(transistor, hiz): Transistörün beyz ucuna, hiz değişkeninin değerine göre bir PWM sinyali gönderir. Bu sinyal, motorun hızını kontrol eder.
 ## Kod
 
