@@ -1,0 +1,14 @@
+int transistor=8;//transistörü 8.pine bağladık.
+int hiz;//hız değeri tanımladık.
+
+
+void setup() {
+  pinMode(transistor,OUTPUT);//8.pinden çıkış verdik.
+  pinMode(A0,INPUT);//A0'a giriş verdik.
+}
+
+void loop() {
+  hiz=analogRead(A0);//A0 pinindeki bilgiye göre hız değişkeninin değerini bulduk.
+  analogWrite(transistor,hiz);//hız değerine göre motoru çalıştırdık.
+  
+}
