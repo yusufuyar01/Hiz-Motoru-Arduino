@@ -17,7 +17,7 @@ Bu proje, bir Arduino kartı kullanarak bir DC motorun hızını kontrol etmeyi 
 2. **Transistör:** Transistörün beyz ucunu Arduino'nun 8 numaralı pinine, emetör ucunu ise güç kaynağının negatif ucuna bağlayın.
 3. **Potansiyometre:** Potansiyometrenin bir ucunu Arduino'nun A0 pinine, diğer ucunu güç kaynağının pozitif ucuna, orta ucunu ise güç kaynağının negatif ucuna bağlayın.
 	
-![Arduino Görseli](hız motoru.png)
+![Image](https://github.com/user-attachments/assets/c9783757-9357-4daf-916c-69455e33142d)
 
 ## Kod
 
